@@ -116,7 +116,7 @@
   }
 
   // Options & Palette
-  var tones = ['#ffffff', '#d6e6f4', '#a8cae7', '#6b9ecc', '#34679a', '#1a3e66', '#0b2140'];
+  var tones = ['#ffffff', '#fecdd0', '#f97682', '#FF2E3E', '#a81522', '#45060c', '#000000'];
   var seed = 23;
   var layers = 7;
   var pixel = 2;

@@ -3528,7 +3528,7 @@ i {
     font-size: 10px;
     line-height: 1;
     letter-spacing: .08em;
-    color: #0b2140;
+    color: #000000;
 }
 
 .rdf-alt i {
@@ -3539,7 +3539,7 @@ i {
     height: 8px;
     border-radius: 50%;
     background: #ffffff;
-    box-shadow: 0 0 0 1.5px #0b2140;
+    box-shadow: 0 0 0 1.5px #FF2E3E;
 }
 
 .rdf-alt b {
@@ -3548,8 +3548,8 @@ i {
     bottom: 6px;
     width: 1px;
     height: 26px;
-    background: #0b2140;
-    opacity: .55;
+    background: #FF2E3E;
+    opacity: .75;
 }
 
 .rdf-alt span {
@@ -3560,8 +3560,9 @@ i {
     white-space: nowrap;
     padding: 5px 8px 4px;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.92);
-    box-shadow: 0 0 0 1px #dae3ed, 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.95);
+    color: #000000;
+    box-shadow: 0 0 0 1px #FF2E3E, 0 4px 12px rgba(255, 46, 62, 0.15);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
