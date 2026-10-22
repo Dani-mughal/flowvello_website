@@ -299,7 +299,7 @@
    <section id="homeSection">
       <div class="owl-carousel">
          <div class="slider-box slider-box1">
-            <div class="overlay" style="background: rgba(17, 24, 39, 0.7);">
+            <div class="overlay">
                <div class="container h-100">
                   <div class="row h-100 align-items-center">
                      <div class="col-lg-10 mx-auto text-center">
@@ -323,7 +323,7 @@
          </div>
          
          <div class="slider-box slider-box2">
-            <div class="overlay" style="background: rgba(17, 24, 39, 0.7);">
+            <div class="overlay">
                <div class="container h-100">
                   <div class="row h-100 align-items-center">
                      <div class="col-lg-10 mx-auto text-center">
@@ -346,80 +346,123 @@
             </div>
          </div>
       </div>
+      <!-- Subtle gradient transition merging Hero into Services -->
+      <div class="hero-bottom-gradient" aria-hidden="true"></div>
    </section>
 
-   <!-- CORE SERVICES (CAROUSEL) -->
-   <section class="fv-services-presentation py-5" id="services">
-      <div class="container pb-5">
-         <div class="text-left mb-5 mt-5" style="position: relative;">
-            <h1 style="color:#1d1e22; font-family: 'Sora', sans-serif; font-size:64px; font-weight:700; letter-spacing:-2px; margin-bottom:0;">Services.</h1>
+   <!-- CORE SERVICES (EXACT 21ST.DEV COLOR CHANGE CARDS) -->
+   <section class="color-cards-section" id="services">
+      <div class="color-cards-container">
+         <div class="color-cards-header">
+            <h2 class="services-title-heading">Services.</h2>
          </div>
+         <div class="color-cards-grid">
+            
+            <!-- Card 1: Development -->
+            <a href="services.html#development" class="color-card-item" aria-label="Development Services">
+               <div class="card-bg-img" style="background-image: url('https://cdn.21st.dev/assets/mirror/0c/0cc3b668ef22fda106ef841eb4be48b778db39102a491ba73f2204b21207b549.jpg');"></div>
+               <div class="card-scrim-layer"></div>
+               <div class="card-body-content">
+                  <div class="card-top-arrow">
+                     <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </div>
+                  <div class="card-text-wrapper">
+                     <h4 class="card-animated-title">
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:0;"><span>D</span><span>D</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:1;"><span>e</span><span>e</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:2;"><span>v</span><span>v</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:3;"><span>e</span><span>e</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:4;"><span>l</span><span>l</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:5;"><span>o</span><span>o</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:6;"><span>p</span><span>p</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:7;"><span>m</span><span>m</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:8;"><span>e</span><span>e</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:9;"><span>n</span><span>n</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:10;"><span>t</span><span>t</span></span></span>
+                     </h4>
+                     <p class="card-text-desc">Scalable custom software, robust web applications, and enterprise digital platforms.</p>
+                  </div>
+               </div>
+            </a>
 
-         
-<style>
-.service-slide-card { text-decoration: none !important; display: block; cursor: pointer; }
-.service-hover-link {
-    margin-top: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    color: #FF2E3E;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-}
-.service-hover-link i { margin-left: 8px; transition: transform 0.3s ease; }
-.service-slide-card:hover .service-hover-link { opacity: 1; transform: translateY(0); }
-.service-slide-card:hover .service-hover-link i { transform: translateX(5px); }
-</style>
+            <!-- Card 2: Creative -->
+            <a href="services.html#creative" class="color-card-item" aria-label="Creative Services">
+               <div class="card-bg-img" style="background-image: url('https://cdn.21st.dev/assets/mirror/f1/f1c5fdf6a772a0fe68b644c520d34a3bbde50699503fdbdd088eec228e24cdbb.jpg');"></div>
+               <div class="card-scrim-layer"></div>
+               <div class="card-body-content">
+                  <div class="card-top-arrow">
+                     <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </div>
+                  <div class="card-text-wrapper">
+                     <h4 class="card-animated-title">
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:0;"><span>C</span><span>C</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:1;"><span>r</span><span>r</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:2;"><span>e</span><span>e</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:3;"><span>a</span><span>a</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:4;"><span>t</span><span>t</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:5;"><span>i</span><span>i</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:6;"><span>v</span><span>v</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:7;"><span>e</span><span>e</span></span></span>
+                     </h4>
+                     <p class="card-text-desc">High-impact visual identity, editorial branding systems, and intuitive UI/UX design.</p>
+                  </div>
+               </div>
+            </a>
 
-<div id="servicesCarousel" class="owl-carousel services-carousel owl-theme">
-              <!-- Department 1: Development -->
-              <a href="services.html#development" class="service-slide-card card-grad-1">
-                 <i class="fa fa-browser card-watermark"></i>
-                 <div class="card-content">
-                    <span class="service-number">( 01 )</span>
-                    <div class="service-icon"><i class="fal fa-globe"></i></div>
-                    <div class="service-text">
-                       <h3>DEVELOPMENT</h3>
-                       <p>Scalable custom software, web apps, and digital platforms.</p><div class="service-hover-link"><span>View all services</span> <i class="fa fa-arrow-right"></i></div></div></div></a>
+            <!-- Card 3: Marketing -->
+            <a href="services.html#marketing" class="color-card-item" aria-label="Marketing Services">
+               <div class="card-bg-img" style="background-image: url('https://cdn.21st.dev/assets/mirror/8f/8fc0496dbc528cacc508210b9af7dad8af1ae9db59d58321050482026deb6e3f.jpg');"></div>
+               <div class="card-scrim-layer"></div>
+               <div class="card-body-content">
+                  <div class="card-top-arrow">
+                     <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </div>
+                  <div class="card-text-wrapper">
+                     <h4 class="card-animated-title">
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:0;"><span>M</span><span>M</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:1;"><span>a</span><span>a</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:2;"><span>r</span><span>r</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:3;"><span>k</span><span>k</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:4;"><span>e</span><span>e</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:5;"><span>t</span><span>t</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:6;"><span>i</span><span>i</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:7;"><span>n</span><span>n</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:8;"><span>g</span><span>g</span></span></span>
+                     </h4>
+                     <p class="card-text-desc">Data-driven performance traffic, B2B outbound engines, and omnichannel campaigns.</p>
+                  </div>
+               </div>
+            </a>
 
-              <!-- Department 2: Creative -->
-              <a href="services.html#creative" class="service-slide-card card-grad-2">
-                 <i class="fa fa-pen-nib card-watermark"></i>
-                 <div class="card-content">
-                    <span class="service-number">( 02 )</span>
-                    <div class="service-icon"><i class="fa fa-pen-nib"></i></div>
-                    <div class="service-text">
-                       <h3>CREATIVE</h3>
-                       <p>High-impact visual identity, branding, and UI/UX design.</p><div class="service-hover-link"><span>View all services</span> <i class="fa fa-arrow-right"></i></div></div></div></a>
+            <!-- Card 4: Automation -->
+            <a href="services.html#automation" class="color-card-item" aria-label="Automation Services">
+               <div class="card-bg-img" style="background-image: url('https://cdn.21st.dev/assets/mirror/b2/b20c5987b8d52c5750be0d3a25ca90bf83ea9311e9b6da36039b23740f9f35ed.jpg');"></div>
+               <div class="card-scrim-layer"></div>
+               <div class="card-body-content">
+                  <div class="card-top-arrow">
+                     <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </div>
+                  <div class="card-text-wrapper">
+                     <h4 class="card-animated-title">
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:0;"><span>A</span><span>A</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:1;"><span>u</span><span>u</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:2;"><span>t</span><span>t</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:3;"><span>o</span><span>o</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:4;"><span>m</span><span>m</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:5;"><span>a</span><span>a</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:6;"><span>t</span><span>t</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:7;"><span>i</span><span>i</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:8;"><span>o</span><span>o</span></span></span>
+                        <span class="anim-letter-box"><span class="anim-letter-slider" style="--idx:9;"><span>n</span><span>n</span></span></span>
+                     </h4>
+                     <p class="card-text-desc">Autonomous AI agents, intelligent CRM workflows, and seamless multi-system integrations.</p>
+                  </div>
+               </div>
+            </a>
 
-              <!-- Department 3: Marketing -->
-              <a href="services.html#marketing" class="service-slide-card card-grad-3">
-                 <i class="fa fa-bullhorn card-watermark"></i>
-                 <div class="card-content">
-                    <span class="service-number">( 03 )</span>
-                    <div class="service-icon"><i class="fa fa-bullhorn"></i></div>
-                    <div class="service-text">
-                       <h3>MARKETING</h3>
-                       <p>Data-driven traffic, B2B lead generation, and omnichannel growth.</p><div class="service-hover-link"><span>View all services</span> <i class="fa fa-arrow-right"></i></div></div></div></a>
-
-              <!-- Department 4: Automation -->
-              <a href="services.html#automation" class="service-slide-card card-grad-4">
-                 <i class="fa fa-robot card-watermark"></i>
-                 <div class="card-content">
-                    <span class="service-number">( 04 )</span>
-                    <div class="service-icon"><i class="fal fa-robot"></i></div>
-                    <div class="service-text">
-                       <h3>AUTOMATION</h3>
-                       <p>Autonomous AI agents and seamless API workflow integrations.</p><div class="service-hover-link"><span>View all services</span> <i class="fa fa-arrow-right"></i></div></div></div></a>
-</div>
-           </div>
-        </div>
-     </section>
+         </div>
+      </div>
+   </section>
 
       
      <!-- WHY Techtox (SHADCN DARK GRID UI) -->
