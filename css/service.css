@@ -1,6 +1,55 @@
-/* service.css */
-/* Shared layout overrides for individual service pages */
+/* --------------------------------------------------------------------------
+   TECHTOX BRAND GUIDELINES TYPOGRAPHY SYSTEM
+   Font Family: Sora (Thin 100, Extra Light 200, Light 300, Regular 400,
+                      Semi Bold 600, Bold 700, Extra Bold 800)
+   Letter Spacing (Tracking): -10 (approx -0.015em to -0.025em on headings)
+   Primary Color: Techtox Red #FF2E3E | Dark: #000000 / #111827
+-------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
+/* Global Font Enforcement */
+html, body, h1, h2, h3, h4, h5, h6, p, span, a, li, button, input, label, div, section, blockquote, figcaption, td, th {
+   font-family: 'Sora', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+   letter-spacing: -0.015em;
+}
+
+/* Headings — Sharp, modern editorial styling */
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Sora', sans-serif !important;
+   letter-spacing: -0.025em !important;
+   font-weight: 700;
+}
+
+/* Service Hero Display Typography */
+.fv-page-hero h1, .vibe-heading {
+   font-family: 'Sora', sans-serif !important;
+   letter-spacing: -1.5px !important;
+   font-weight: 700 !important;
+}
+
+.fv-page-hero .fv-eyebrow, .vibe-eyebrow {
+   font-family: 'Sora', sans-serif !important;
+   letter-spacing: 2px !important;
+   font-weight: 700 !important;
+   text-transform: uppercase !important;
+}
+
+.fv-page-hero .fv-lead, .vibe-lead {
+   font-family: 'Sora', sans-serif !important;
+   letter-spacing: -0.01em !important;
+   font-weight: 400 !important;
+}
+
+/* Brand Guidelines Weights */
+.font-thin { font-weight: 100 !important; }
+.font-extralight { font-weight: 200 !important; }
+.font-light { font-weight: 300 !important; }
+.font-regular { font-weight: 400 !important; }
+.font-semibold { font-weight: 600 !important; }
+.font-bold { font-weight: 700 !important; }
+.font-extrabold { font-weight: 800 !important; }
+
+/* Service Page Presentation Layout */
 .presentation-card i {
    font-size: 24px;
    color: #FF2E3E;
